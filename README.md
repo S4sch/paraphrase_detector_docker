@@ -39,7 +39,7 @@ In the following window, you can then insert the link, https://github.com/S4sch/
 
 ## Building the Docker Image
 
-To build the Docker image, run the following command. It is required to be in the same directory in which the Dockerfile of the repository is.
+To build the Docker image, run the following command. It is required to be in the same directory in which the Dockerfile of the repository is. Make sure that the Docker Desktop application is running, as discussed in the Prerequisites.
 
 ```bash
 cd path/to/your/working/directory/paraphrase_detector_docker
@@ -62,9 +62,9 @@ You can add a -d flag inside of the docker run command, if you want the containe
 
 ### Additional Information
 
-To stop the Docker container, use ```docker stop your-container-name```
-To remove the Docker container, use ```docker rm your-container-name```
-To remove the Docker image, use ```docker rmi your-image-name```
+To stop the Docker container, use ```docker stop your-container-name```.
+To remove the Docker container, use ```docker rm your-container-name```.
+To remove the Docker image, use ```docker rmi your-image-name```.
 
 
 
