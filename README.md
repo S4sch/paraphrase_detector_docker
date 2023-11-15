@@ -62,9 +62,11 @@ You can add a -d flag inside of the docker run command, if you want the containe
 
 ### Additional Information
 
-To stop the Docker container, use ```docker stop your-container-name```.
-To remove the Docker container, use ```docker rm your-container-name```.
-To remove the Docker image, use ```docker rmi your-image-name```.
+To stop the Docker container, use ```docker stop your-container-name```
+
+To remove the Docker container, use ```docker rm your-container-name```
+
+To remove the Docker image, use ```docker rmi your-image-name```
 
 
 
